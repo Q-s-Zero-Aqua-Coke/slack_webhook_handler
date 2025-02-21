@@ -24,7 +24,7 @@ public class Webhook {
                   "model": "%s",
                   "width": 1024,
                   "height": 768,
-                  "steps": 2,
+                  "steps": 4,
                   "n": 1
                 }
                 """.formatted(prompt, model);
