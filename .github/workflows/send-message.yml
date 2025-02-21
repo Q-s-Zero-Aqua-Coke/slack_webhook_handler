@@ -31,5 +31,5 @@ jobs:
           LLM_IMG_MODEL: ${{ secrets.LLM_IMG_MODEL }}
           LLM_IMG_PROMPT: ${{ vars.LLM_IMG_PROMPT }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          LLM_PROMPT: ${{ secrets.LLM_PROMPT }}
+          LLM_PROMPT: ${{ vars.LLM_PROMPT }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
